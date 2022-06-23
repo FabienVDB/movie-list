@@ -1,0 +1,61 @@
+.card-list {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+.card-movie {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 100%;
+
+  .card-movie-title-font {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .card-movie-star {
+    color: yellow;
+  }
+
+  .card-movie-text-font {
+    font-size: 12px;
+    opacity: .7;
+  }
+
+  .card-movie-comment-font {
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+
+  .card-movie-footer {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+  }
+}
